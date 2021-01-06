@@ -1,4 +1,8 @@
-#First I set up my Rstudio.
+#Before I begin, it is necessary to download the data used in this project.
+##The data comes from p. 24 of https://www.dst.dk/Site/Dst/Udgivelser/GetPubFile.aspx?id=22699&sid=kvind
+###It is found by clicking on the titles for the graphs “Kvinders andel af de fuldførte gymnasiale, erhvervsfaglige og videregående uddannelser. 1921-2014” and “Kvinders andel af de fuldførte uddannelser til lærer, jurist, læge og præst. 1921-2014”
+
+#Then I set up my Rstudio.
 #I create 4 folders in my directory:
 dir.create("data") #For my raw data
 dir.create("data_output") #For my edited data
@@ -114,6 +118,7 @@ write.csv(named_specific,"data_output/named_specific")
 #Most columns have either a . or an - somewhere so I need to change these into something Rstudio can read.
 ##I believe the . to be NA's since the years with . always includes all 3 columns from the spreadsheet
 ##I think - is, however, 0 since the hyphen are always only in the "women" and "share_women" columns.
+###The publication in which the datasets were found confirm this interpretation.
 #I edit the NA's and 0's with "Facet", "Text facet". Here I choose . or -, edit them in the text box and click apply.
 ##I do this for every of the 13 columns. 
 
