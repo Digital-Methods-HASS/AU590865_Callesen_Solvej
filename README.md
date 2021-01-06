@@ -2,6 +2,8 @@ About this module:
 
 This module is a part of the final_project for the course Teoriorienteret Metode: Digital Methods for Historians. This course is a part of the history programme at Aarhus University. 
 
+To see the actual final project go to the folder "final_project".
+
 
 Authorship:
 
