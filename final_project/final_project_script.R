@@ -1,6 +1,7 @@
 #Before I begin, it is necessary to download the data used in this project.
 ##The data comes from p. 24 of https://www.dst.dk/Site/Dst/Udgivelser/GetPubFile.aspx?id=22699&sid=kvind
 ###It is found by clicking on the titles for the graphs “Kvinders andel af de fuldførte gymnasiale, erhvervsfaglige og videregående uddannelser. 1921-2014” and “Kvinders andel af de fuldførte uddannelser til lærer, jurist, læge og præst. 1921-2014”
+###These datasets are downloaded as "S24f2" and "S24f3". I rename them "dataset_kvindersuddannelse_1920-idag" and "datset_specifikkeuddannelser". 
 
 #Then I set up my Rstudio.
 #I create 4 folders in my directory:
@@ -13,7 +14,7 @@ dir.create("fig_output")#For my figures
 library(tidyverse)
 library(janitor)
 
-#I manually move the excel files I will be working with to the folder called data
+#I manually move the excel files I will be working with to the folder called "data".
 
 #My Rstudio is now ready for me to begin.
 
