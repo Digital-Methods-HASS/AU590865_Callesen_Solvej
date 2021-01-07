@@ -1,3 +1,6 @@
+#Title: Females in Danish Higher Education 1920-2014
+#Author: Solvej Byriel Callesen
+
 #Before I begin, it is necessary to download the data used in this project.
 ##The data comes from p. 24 of https://www.dst.dk/Site/Dst/Udgivelser/GetPubFile.aspx?id=22699&sid=kvind
 ###It is found by clicking on the titles for the graphs “Kvinders andel af de fuldførte gymnasiale, erhvervsfaglige og videregående uddannelser. 1921-2014” and “Kvinders andel af de fuldførte uddannelser til lærer, jurist, læge og præst. 1921-2014”
