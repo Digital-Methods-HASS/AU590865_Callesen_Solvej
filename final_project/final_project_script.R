@@ -1,4 +1,4 @@
-#Title: Females in Danish Higher Education 1920-2014
+#Title: Females in Danish Higher Education from 1920-2014
 #Author: Solvej Byriel Callesen
 
 #Before I begin, it is necessary to download the data used in this project.
